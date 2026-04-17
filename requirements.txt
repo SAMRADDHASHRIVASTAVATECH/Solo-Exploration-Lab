@@ -1,0 +1,18 @@
+# ============================================
+# ASTROPHYSICAL INTELLIGENCE SYSTEM
+# Python 3.10+ (64-bit) Required
+# ============================================
+
+# --- Core UI & Window Management ---
+PyQt6>=6.4.0
+
+# --- Deep Learning & Mathematics ---
+torch>=2.0.0
+numpy>=1.23.0
+
+# --- Background Monitoring & Utilities ---
+watchdog>=3.0.0
+tqdm>=4.65.0
+
+# --- Report Generation (PDFs) ---
+reportlab>=4.0.0

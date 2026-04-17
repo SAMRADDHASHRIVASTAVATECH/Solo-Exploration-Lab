@@ -1,0 +1,35 @@
+{
+  "category_accuracy": 0.9324966078697422,
+  "category_report": "                    precision    recall  f1-score   support\n\n          Asteroid       1.00      1.00      1.00       536\n             Comet       1.00      1.00      1.00        58\n      Moon (Rocky)       1.00      0.99      1.00       102\n            Nebula       1.00      1.00      1.00         1\n     Star (A-type)       0.40      0.32      0.35       160\n     Star (B-type)       0.96      0.66      0.78       234\n     Star (F-type)       0.49      0.29      0.37       348\n     Star (G-type)       0.74      0.86      0.80       859\n     Star (K-type)       0.67      0.91      0.77       286\n     Star (M-type)       0.99      1.00      1.00      1942\n     Star (O-type)       0.75      0.38      0.50         8\nTerrestrial Planet       1.00      1.00      1.00      1330\n    Unknown Object       1.00      1.00      1.00      2980\n\n          accuracy                           0.93      8844\n         macro avg       0.85      0.80      0.81      8844\n      weighted avg       0.93      0.93      0.93      8844\n",
+  "capability_mae": 0.23955464363098145,
+  "capability_r2": 0.9002242088317871,
+  "cv_scores": [
+    0.9932155477031802,
+    0.9868551236749117,
+    0.98741871642635,
+    0.9879841673734804,
+    0.9877014418999152
+  ],
+  "cv_mean": 0.9886349994155674,
+  "cv_std": 0.002320510140431404,
+  "robustness_accuracy": 0.9082994120307553,
+  "robustness_drop": 0.02419719583898694,
+  "dataset_balance": {
+    "Asteroid": 2679,
+    "Star (G-type)": 4294,
+    "Terrestrial Planet": 6650,
+    "Unknown Object": 14901,
+    "Moon (Rocky)": 509,
+    "Star (O-type)": 42,
+    "Comet": 288,
+    "Nebula": 5,
+    "Gas Giant": 2,
+    "Star (M-type)": 9709,
+    "Star (K-type)": 1429,
+    "Star (B-type)": 1171,
+    "Star (A-type)": 799,
+    "Star (F-type)": 1738
+  },
+  "train_size": 35372,
+  "test_size": 8844
+}
