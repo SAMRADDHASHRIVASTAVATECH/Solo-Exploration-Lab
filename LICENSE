@@ -1,0 +1,45 @@
+LICENSE
+
+ALL RIGHTS RESERVED
+Copyright (c) 2026 Samraddha Shrivastava
+
+PROPRIETARY AND CONFIDENTIAL
+
+This software and all associated files are the exclusive property of Samraddha Shrivastava. This project originated as a personal research initiative for astrophysical exploration and was subsequently submitted as a final year college project.
+
+---
+
+1. OWNERSHIP & CREDITS
+
+Lead Developer: Samraddha Shrivastava (70% contribution)
+Contributor: Sujal Arora (30% contribution)
+
+---
+
+2. RESTRICTIONS & PROHIBITIONS
+
+NO CLONING OR COPYING:
+No part of this source code, documentation, or assets may be cloned, downloaded, copied, or reproduced in any form without explicit written permission from the Lead Developer.
+
+NO DISTRIBUTION:
+You may not share, publish, or distribute this code on any platform, public or private.
+
+NO DERIVATIVE WORKS:
+Modification, adaptation, or building upon this code for any purpose is strictly prohibited.
+
+NO ACADEMIC OR COMMERCIAL USE:
+This project is for viewing purposes only (if public) and may not be used for any academic assignments or commercial products by third parties.
+
+---
+
+3. TECHNICAL ORIGIN
+
+The data gathering methodology utilizes runtime reverse engineering of the SpaceEngine system. This specific implementation and the resulting bulk ML data creation techniques are strictly proprietary intellectual property.
+
+---
+
+4. LEGAL CONSEQUENCES
+
+Any unauthorized use, reproduction, or distribution of this project will be treated as copyright infringement. Violators will face strict legal consequences and academic reporting where applicable.
+
+---
