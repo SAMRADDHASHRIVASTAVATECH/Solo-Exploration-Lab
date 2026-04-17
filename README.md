@@ -19,7 +19,7 @@
   <b>Lead Developer:</b> Samraddha Shrivastava (70%) &nbsp;|&nbsp;
   <b>Co-Developer:</b> Sujal Arora (30%) <br>
   <b>GitHub:</b> <a href="https://github.com/SAMRADDHASHRIVASTAVATECH">@SAMRADDHASHRIVASTAVATECH</a> &nbsp;|&nbsp;
-  <b>Generated:</b> <code>2026-04-17 17:10 UTC</code>
+  <b>Generated:</b> <code>2026-04-17 17:43 UTC</code>
 </p>
 
 <!-- ═══════════════════════  MISSION CALLOUT  ═══════════════════ -->
@@ -213,7 +213,7 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 
 # 3 — Install all dependencies
 pip install --upgrade pip
-pip install PyQt6 torch numpy reportlab tqdm watchdog
+pip install -r requirements.txt
 
 # 4 — Launch the master terminal
 python voidwalker_terminal.py

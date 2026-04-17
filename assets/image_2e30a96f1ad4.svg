@@ -1,0 +1,64 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Deep Space / Dark Tech Background -->
+  <rect width="1200" height="300" fill="#020617"/>
+  <!-- Animated Grid -->
+  <g stroke="#0f172a" stroke-width="2">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="none" />
+      <path d="M 40 0 L 0 0 0 40" fill="none" />
+    </pattern>
+    <rect width="1200" height="300" fill="url(#grid)" />
+  </g>
+  <!-- Horizontal Radar Sweep -->
+  <line x1="0" y1="0" x2="1200" y2="0" stroke="#0ea5e9" stroke-width="2" opacity="0.4">
+    <animate attributeName="y1" values="-10;310;-10" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="-10;310;-10" dur="7s" repeatCount="indefinite"/>
+  </line>
+  <!-- Vertical Radar Sweep -->
+  <line x1="0" y1="0" x2="0" y2="300" stroke="#8b5cf6" stroke-width="2" opacity="0.3">
+    <animate attributeName="x1" values="-10;1210;-10" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="-10;1210;-10" dur="11s" repeatCount="indefinite"/>
+  </line>
+  <!-- Rotating Tech Cores -->
+  <g transform="translate(600, 150)">
+    <!-- Inner fast ring -->
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#10b981" stroke-width="1" stroke-dasharray="15 30" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Middle counter-rotating ring -->
+    <circle cx="0" cy="0" r="135" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="60 40 10 20" opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="25s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Outer slow ring -->
+    <circle cx="0" cy="0" r="150" fill="none" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="100 80" opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="35s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <!-- Pulsing Data Nodes -->
+  <circle cx="180" cy="80" r="3" fill="#10b981">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1020" cy="220" r="4" fill="#8b5cf6">
+    <animate attributeName="opacity" values="0;1;0" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="850" cy="60" r="2" fill="#0ea5e9">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Main Typography -->
+  <text x="600" y="140" font-family="'Courier New', monospace" font-size="44" fill="#f8fafc" text-anchor="middle" font-weight="900" letter-spacing="4">
+    ASTROPHYSICAL INTELLIGENCE
+  </text>
+  <text x="600" y="175" font-family="'Courier New', monospace" font-size="18" fill="#38bdf8" text-anchor="middle" letter-spacing="8">
+    [ SOLO EXPLORATION LAB ]
+  </text>
+  <!-- Developer Signature Badge -->
+  <g transform="translate(940, 250)">
+    <rect x="0" y="0" width="230" height="26" rx="4" fill="#020617" stroke="#10b981" stroke-width="1"/>
+    <text x="115" y="17" font-family="'Courier New', monospace" font-size="12" fill="#10b981" text-anchor="middle" font-weight="bold">
+      SAMRADDHA SHRIVASTAVA
+    </text>
+    <circle cx="15" cy="13" r="3" fill="#10b981">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
